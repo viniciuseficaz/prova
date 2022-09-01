@@ -1,0 +1,34 @@
+#Questão1
+
+defmodule calculadora do
+   def calculaFatorial(0), do: 1
+   def calculaFatorial(num) when num>0 do
+     Enum.reduce(1..num, &*/2)
+   end
+
+   def calculaPoncia(num,potencia) do
+     :matyh.pow(num,potencia)
+     |> round()
+   end
+  
+  def informaPercentual(num, percentual) do
+  |
+  end
+end
+
+#Questão2
+
+
+
+
+
+
+
+
+#Questão3
+
+
+
+
+#Questão4
+
